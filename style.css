@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+}
+body{
+    /* overflow: hidden; */
+  height: 100vh;
+  /* background-color: bisque; */
+}
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+/* .nav{
+  position: sticky;
+  z-index: 99;
+} */
+.montserrat-text {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+#nav{
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid green; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    color: greenyellow;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.owner{
+    text-align: center;
+    margin: 35px 91px;
+}
+
+ul, #menu{
+    display: flex;
+    list-style: none;
+    flex: 329px;
+    padding: 20px;
+    /* border: 2px solid #8181db; */
+    align-items: center;
+    justify-content: center;
+}
+.ham-menu{
+  /* border: 2px solid purple; */
+  display: none;
+  position: absolute;
+}
+.ham-bars{
+  background-color: black;
+    width: 47px;
+    height: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 4px;
+}
+#menu li {
+    /* border: 2px yellow solid; */
+    padding: 20px;
+    margin: 0px 20px;
+}
+#menu li a{
+  color: greenyellow;
+  text-decoration: none;
+}
+.butt{
+  color: bisque;
+}
+.home{
+    /* height: 30vh; */
+    /* border: 2px solid cadetblue; */
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid burlywood; */
+    height: 92vh;
+}
+.profilepic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* padding: 30px; */
+    margin: 50px;
+}
+.info{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:20px 40px 38px 50px 50px;
+    /* border: 2px solid lightseagreen; */
+    grid-template-areas: "a a"
+    "b b"
+    "c c"
+    "cv contact"
+    "linkedin github";
+    /* background-color: peru; */
+    gap: 4px 9px;
+}
+.button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+/* .name{
+    
+
+} */
+ .cv a{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+ }
+.items{
+    /* border: 2px seagreen solid; */
+    align-content: center;
+}
+.a {
+    grid-area: a;
+  }
+  .b {
+    grid-area: b;
+  }
+  .c {
+    grid-area: c;
+  }
+  .cv {
+    grid-area: cv;
+  }
+  .contact {
+    grid-area: contact;
+    background-color: black;
+    border: 2px solid black;
+    /* border-radius: 30px; */
+    color: white;
+    cursor: pointer;
+  }
+  .linkedin {
+    grid-area: linkedin;
+    justify-self: end;
+    width: 37px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .github {
+    grid-area: github;
+    width: 37px;
+    margin-top: 10px;
+    /* justify-self: end; */
+    cursor: pointer;
+  }
+  .me_pic{
+    width: 32%;
+    height: auto;
+    margin-right: 8%;
+    border-radius: 7%;
+  }
+
+.samll-heading{
+  text-align: center;
+    font-size: 80%;
+    margin: 12px 20px;
+}
+.big-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  margin-bottom: 45px;
+  font-size: 200%;
+  text-align: center;
+    
+}
+#about{
+  padding-top: 10px;
+}
+.me-content{
+  /* border: 2px solid brown; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    grid-template-rows:44% 56%;
+    grid-template-areas: "x y"
+    "z z";
+    /* background-color: peru; */
+    gap: 2% 0%;
+    /* overflow: hidden; */
+}
+.me{
+  /* border: 2px solid skyblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  margin: 5%;
+}
+.experience{
+  grid-area: x;
+  margin: 20px;
+}
+.education{
+  grid-area: y;
+  margin: 20px;
+}
+.para{
+  grid-area: z;
+  margin: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+.contents{
+  border: 2px solid black;
+  padding: 17px 20px;
+  border-radius: 20px;
+  /* margin: 20px; */
+  height: 5rem;
+  text-align: center;
+  font-size: 85%;
+}
+.experience_icon{
+  height: 43%;
+}
+.education_icon{
+  height: 30%;
+}
+
+/* #experience-section{
+  /* border: 2px solid coral; 
+} */
+.exp-image{
+  width: 32%;
+  height: auto;
+  margin-right: 8%;
+    border-radius: 7%;
+}
+.exp-container{
+  display: flex;
+  margin-left: 10%;
+  padding: 2%;
+}
+.frontend{
+  border: 2px solid black;
+    border-radius: 20px;
+    padding: 29px;
+  background-color: aliceblue;
+}
+.frontend-heading{
+  text-align: center;
+}
+.frontend-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 5%;
+  margin: 1%;
+}
+.tick{
+  /* border: 1px solid blueviolet; */
+  margin-right: 10px;
+  width: 20%;
+}
+.frontend-items{
+  /* border: 1px solid chartreuse; */
+  font-size: 114%;
+  margin: 6%;
+  width: 59%;
+}
+.headings{
+  padding-top: 10px;
+}
+
+.project-images{
+  /* width: 20%; */
+  border: 2px solid black;
+  border-radius: 7%;
+  width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 8%;
+}
+.project-container{
+  display: flex;
+  /* border: 2px solid yellow; */
+  justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.projects{
+  border: 2px solid black;
+  margin: 3%;
+    border-radius: 30px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+.project-buttons{
+  /* padding: 10px; */
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proj-buttons{
+  padding: 9px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 112px;
+    margin: 10px;
+    cursor: pointer;
+}
+.con-heading{
+  margin-bottom: 153px;
+}
+.con-container{
+  display: flex;
+    border: 2px solid black;
+    border-radius: 31px;
+    background-color: aliceblue;
+    padding: 16px;
+    margin: auto;
+    justify-content: center;
+    width: 404px;
+}
+.contact-way{
+  display: flex;
+  /* padding: 2%; */
+  /* margin: 7%; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.email{
+  margin-right: 33px;
+}
+.msg-icon{
+  margin-right: 8px;
+  /* cursor: pointer; */
+}
+#contact-sec{
+  /* border: 2px solid rebeccapurple; */
+  height: 560px;
+}
+.Copyright{
+  text-align: center;
+}
+.footer{
+  height: 50px;;
+}

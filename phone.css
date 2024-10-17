@@ -1,0 +1,122 @@
+@media only screen and (max-width: 700px) {
+    /* body {
+      background-color: rgb(250, 224, 229);
+    } */
+    .container{
+        flex-direction: column;
+        margin: 92px 0px;
+    }
+    .me{
+        flex-direction: column;
+    }
+    .contents{
+        border: 2px solid black;
+        padding: 17px 17px;
+        border-radius: 20px;
+        /* margin: 20px; */
+        height: 7rem;
+        text-align: center;
+        font-size: 85%;
+  }
+  .experience{
+    /* grid-area: x; */
+    margin: 8px;
+  }
+  .education{
+    /* grid-area: y; */
+    margin: 8px;
+  }
+  .para{
+    /* grid-area: z; */
+    margin: 8px;
+  }
+  .me-content{
+    
+      gap: 6% 0%;
+      /* overflow: hidden; */
+  }
+  .me_pic{
+    width: 43%;
+    margin-right: 0%;
+  }
+  .exp-container{
+    /* border: 1px solid green; */
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 305px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .exp-image{
+    width: 99%;
+    height: auto;
+    /* margin-right: 0%; */
+      /* border-radius: 7%; */
+      margin-bottom: 20px;
+  }
+  .frontend{
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .frontend-list{
+    padding: 20px;
+  }
+  .project-container{
+   flex-direction: column;
+   padding: 10px;
+   margin-bottom: 20px
+  }
+
+
+
+  .con-heading{
+    margin-bottom: 70px;
+  }
+  #contact-sec{
+    /* border: 2px solid rebeccapurple; */
+    height: 350px;
+  }
+  #menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+        right: 0px;
+        top: 28px;
+        background: aliceblue;
+        padding-top: 32px;
+        opacity: 0.7;
+  }
+  .ham-menu{
+    /* border: 2px solid purple; */
+    display: block;
+    position: absolute;
+    right: 0px;
+        top: 26px;
+  }
+  #nav{
+    /* background-color:  rgb(250, 224, 229); */
+    background-color: aliceblue;
+    color: black;
+    opacity: 1;
+    cursor: pointer;
+}
+#menu li a{
+  color: black;
+  text-decoration: none;
+
+}
+/* #menu li {
+  /* border: 2px yellow solid; 
+  padding: 30px;
+  margin: 0px 10px;
+} */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+} 

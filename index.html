@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>SimplePortfolio</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="owner">
+            <h2 class="montserrat-text">Priti Gupta</h2>
+        </div>
+        <ul id="menu">
+            <!-- <button class="butt">About</button> -->
+            <li class="montserrat-text nav-li"><a href="#about-me">About</a></li>
+            <li class="montserrat-text nav-li"><a href="#experience-section">Experience</a></li>
+            <li class="montserrat-text nav-li"><a href="#project-sec">Projects</a></li>
+            <li class="montserrat-text nav-li"><a href="#contact-sec">Contact</a></li>
+        </ul>
+        <!-- <a href="javascript:void(0);" class="ham-menu" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+        <div class="ham-menu" onclick="showMenu(this)">
+            <div class="ham-bars change bar1"></div>
+            <div class="ham-bars change bar2"></div>
+            <div class="ham-bars change bar3"></div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="container">
+            <div class="profilepic">
+                <img src="./pictures/Priti_pic.jpg" alt="profile_pic" height="200px" width="200px">
+            </div>
+            <div class="info">
+                <h5 class="items a montserrat-text">Hello I'm</h5>
+                <h1 class="items b montserrat-text big-heading bold">Priti Gupta</h1>
+                <h3 class="items c montserrat-text">Frontend Developer</h3>
+                <button class="items button montserrat-text cv"><a href="./Priti Gupta_Resume.pdf" download="Priti Gupta's CV" >Download CV</a></button>
+                <button class="items button montserrat-text contact" onclick="location.href='#contact-sec'">Contact Info</button>
+                <img class="items linkedin" src="./pictures/Linkedin_icon.png" alt=""
+                    onclick="location.href='https://www.linkedin.com/in/priti-gupta-167421138/'"/>
+                <img class="items github" src="./pictures/Github_icon.png" alt="" 
+                onclick="location.href='https://github.com/priti98'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <div id="about">
+            <h6 class="montserrat-text samll-heading">Get To Know More</h6>
+            <h1 class="montserrat-text big-heading bold ">About Me</h1>
+            <div class="me">
+                <img src="./pictures/about_me.jpg" alt="" class="me_pic">
+                <div class="me-content">
+                    <div class="experience contents">
+                        <img class="experience_icon" src="./pictures/experience_icon.png" alt="">
+                        <h4 class="montserrat-text bold">Experience</h4>
+                        <p class="montserrat-text">2+ Years</p>
+                        <p class="montserrat-text">Frontend Developer</p>
+                    </div>
+                    <div class="education contents">
+                        <img src="./pictures/education_icon.png" alt="" class="education_icon">
+                        <h4 class="montserrat-text bold">Education</h4>
+                        <p class="montserrat-text">Bachelors of Technology</p>
+                        <p class="montserrat-text">Computer Science & Engineering</p>
+                    </div>
+                    <p class=" montserrat-text para contents">Hi! <br>
+                I am porfiecient in Python and SQL and also have sound knowledge in HTML, CSS, JavaScript. I'm a fast learner and a good team player. I'm keen to enhance my knowledge in React JS and other front end technologies.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience-section">
+        <div class="explore">
+            <p class="expoore-line samll-heading montserrat-text">Explore My</p>
+            <h3 class="experience-heading big-heading bold montserrat-text">Experience</h3>
+        </div>
+        <div class="exp-container">
+            <img src="./pictures/exp_image.jpg" alt="" class="exp-image">
+            <div class="frontend">
+                <h2 class="frontend-heading bold montserrat-text">Frontend Development</h2>
+                <ul class="frontend-list">
+                    <li class="montserrat-text frontend-items"> <img class="tick" src="./pictures/black_tick2.png" alt="">HTML
+                    </li>
+                    <li class="montserrat-text frontend-items"><img class="tick" src="./pictures/black_tick2.png" alt=""> CSS</li>
+                    <li class="montserrat-text frontend-items"> <img class="tick" src="./pictures/black_tick2.png"
+                            alt="">JavaScript</li>
+                    <li class="montserrat-text frontend-items"> <img class="tick" src="./pictures/black_tick2.png" alt="">React
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<section id="project-sec">
+    <div class="headings">
+        <p class="samll-heading montserrat-text">Browse My Recent</p>
+        <h3 class="big-heading bold montserrat-text">Projects</h3>
+    </div>
+    <div class="project-container">
+        <div class="projects">
+            <img src="./pictures/robo_image2.jpg" alt="" class="project-images">
+            <h1 class="montserrat-text bold">RoboFriends</h1>
+            <div class="project-buttons">
+                <button class="github montserrat-text proj-buttons bold"
+                onclick="location.href='https://github.com/priti98/roboFriends'">Github</button>
+                <button class="demo montserrat-text proj-buttons bold"
+                onclick="location.href='https://priti98.github.io/roboFriends/'">Live Demo</button>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="./pictures/netflix_image2.jpg" alt="" class="project-images">
+            <h1 class="montserrat-text bold">Bingeflix</h1>
+            <div class="project-buttons">
+                <button class="github montserrat-text proj-buttons bold"
+                onclick="location.href='https://github.com/priti98/Netflix-Landing-Page'">Github</button>
+                <button class="demo montserrat-text proj-buttons bold"
+                onclick="location.href='https://priti98.github.io/Netflix-Landing-Page/'">Live Demo</button>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="./pictures/meal_image3.jpg" alt="" class="project-images">
+            <h1 class="montserrat-text bold">OnlineMeal.com</h1>
+            <div class="project-buttons">
+                <button class="github montserrat-text proj-buttons bold"
+                onclick="location.href='https://github.com/priti98/OnlineMeal.com'">Github</button>
+                <button class="demo montserrat-text proj-buttons bold"
+                onclick="location.href='https://priti98.github.io/OnlineMeal.com/'">Live Demo</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-sec">
+    <div class="headings con-heading">
+        <p class="samll-heading montserrat-text">Get In Touch</p>
+        <h3 class="big-heading bold montserrat-text">Contact Me</h3>
+    </div>
+    <div class="con-container">
+        <div class="contact-way email">
+            <img src="./pictures/message_icon.png" alt="" class="msg-icon">
+            <h5 class="montserrat-text">gupta.priti1998@gmail.com</h5>
+        </div>
+        <div class="contact-way">
+            <img src="./pictures/message_icon.png" alt="" class="msg-icon">
+            <h5 class="montserrat-text" onclick="location.href='https://www.linkedin.com/in/priti-gupta-167421138/'">LinkedIn</h5>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <h5 class="montserrat-text Copyright">Copyright &copy; 2024 Priti Gupta. All Rights Reserved.</h5>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+
+</html>
